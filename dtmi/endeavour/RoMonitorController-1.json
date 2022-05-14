@@ -37,26 +37,14 @@
     },
     {
       "@type": "Command",
-      "name": "relayon",
-      "displayName": "Relay ON",
-      "description": "Command relay ON.",
+      "name": "relay",
+      "displayName": "Relay cmd",
+      "description": "Command relay .",
       "request": {
-        "name": "delay",
-        "displayName": "Delay",
-        "description": "Number of seconds to wait before rebooting the device.",
-        "schema": "integer"
-      }
-    },
-    {
-      "@type": "Command",
-      "name": "relayoff",
-      "displayName": "Relay OFF",
-      "description": "Command relay OFF.",
-      "request": {
-        "name": "delay",
-        "displayName": "Delay",
-        "description": "Number of seconds to wait before rebooting the device.",
-        "schema": "integer"
+        "name": "state",
+        "displayName": "Relay ON/OFF",
+        "description": "relay command ON or OFF.",
+        "schema": "boolean"
       }
     },
     {
